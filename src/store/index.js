@@ -25,5 +25,10 @@ export const useStore = defineStore({
         imageFile: 'fjord.jpg'
       },
     ]
-  })
+  }),
+  getters: {
+    getBreedByIndex(state) {
+      return (index) => state.breeds[index]
+    }
+  }
 })
