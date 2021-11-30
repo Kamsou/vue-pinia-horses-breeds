@@ -1,6 +1,8 @@
 <template>
-  <h2>{{ breed.name }}</h2>
-  <h2>{{ breed.description }}</h2>
+  <div class="absolute top-2/4 left-2/4 transform -translate-y-1/2 -translate-x-1/2">
+    <h1>{{ breed.name }}</h1>
+    <h3>{{ breed.description }}</h3>
+  </div>
 </template>
 
 <script>

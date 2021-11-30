@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+  <div class="max-w-md py-4 px-8 bg-white shadow-lg g my-20">
     <div class="flex justify-center md:justify-end -mt-16 h-64 mb-4">
-      <img class="" :src="`/src/assets/${breed.imageFile}`">
+      <img :src="`/src/assets/${breed.imageFile}`">
     </div>
     <div>
       <h2 class="text-gray-800 text-xl font-semibold">{{breed.name}}</h2>
