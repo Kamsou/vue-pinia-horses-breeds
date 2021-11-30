@@ -1,4 +1,4 @@
-# Vue 3 + Typescript + Vite + Pinia
+# Vue 3 + Vite + Pinia
 
 Inspired to https://www.youtube.com/watch?v=MsJRJX_B9qQ
 
